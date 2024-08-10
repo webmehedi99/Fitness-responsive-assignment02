@@ -7,11 +7,26 @@
     font-style: normal;
   }
 
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+.miami-font{
+  font-family: 'Miama', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;                                            
+               
+}
+
   body{
     margin: 0 auto;
     background-color: black;
   }
+
   /* shared style */
+
+.ham-burg{
+    display: none;
+  }
 
 .display-flex{
     display: flex;
@@ -26,10 +41,7 @@
 
 }
 
-#shape{
-    /* font-family: 'Miama', sans-serif; */
-                
-}
+
 .btn-primary{
     font-size: 18px;
     font-weight: 600;
@@ -74,12 +86,12 @@
   .nav-bar, .banner{
     max-width: 1440px;
     margin: 0 auto;
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
+    
   }
 
   /* banner related styles */
-/* .banner{
-    justify-content:space-evenly;
-} */
+
 .banner-title{
     width: 520px;
     font-size:4.87rem ;
@@ -117,8 +129,133 @@
 .card-500{
     width: 193px;
     height: 98px;
-    
-    color: white;
-    background-color:rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
     border-radius: 12px;
+    margin-left: -120px;
+    margin-top: 120px;
+}
+.card-500-title{
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: rgb(255, 255, 255);;
+  margin-top: 10px;
+  margin-left: 24px;
+}
+.card-500-description{
+  font-size: 0.81rem;
+  font-weight: 400;
+  margin-top: -30px;
+  margin-left: 24px;
+}
+
+.card-350{
+  width: 206px;
+  height: 96px;
+  display: flex;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  margin-left: -480px;
+  margin-top: 200px;
+}
+.ellipse{
+  width: 40px;
+  height: 40px;
+  background: rgb(230, 83, 60);
+  border-radius: 50%;
+  margin-left: 23px;
+  margin-top: 25px;
+}
+.card-350-title{
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: rgb(250, 250, 249);
+  margin-left: 10px;
+}
+.card-350-description{
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 10px;
+  margin-top: -18px;
+}
+
+/* .hide{
+  display:none;
+} */
+
+/* responsive style for small device (576px) */
+@media screen and (max-width:576px) {
+  .nav-bar{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .nav-links{
+    display: none;
+  }
+  .ham-burg{
+    display:block;
+    color: white;
+  }
+   .banner{
+    flex-direction: column;
+    margin-left: 20px;
+   }
+   .banner-title{
+    width: 285px;
+    height: 130px;
+    font-size: 36px;
+   }
+   .banner-description{
+    width:276px;
+    height: 96px;
+   }
+   .banner-btn{
+    display: flex;
+   }
+   #club{
+    display: none;
+   }
+   .banner-img{
+    margin-top: 47px;
+    margin-left: 20px;
+  }
+  .card-500{
+    width:146px;
+    height: 75px;
+    margin-top: -530px;
+    margin-left: 210px;
+  }
+  .card-500-title{
+    font-size: 2rem;
+  }
+  .card-500-description{
+    font-size: 0.625rem;
+    margin-top: px;
+  }
+  .card-350{
+    width: 156px;
+    height: 73px;
+    margin-left: 28px;
+    margin-top: 140px;
+  }
+  .ellipse{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 17px;
+    margin-top: 20px;
+  }
+  .card-350-title{
+    font-size: 1.133rem;
+  }
+  .card-350-description{
+    font-size: 0.75rem;
+    
+  }
+  
+
 }
