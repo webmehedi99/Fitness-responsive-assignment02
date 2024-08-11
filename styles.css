@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.cdnfonts.com/css/miama');
+
 .inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -7,15 +9,13 @@
     font-style: normal;
   }
 
-@import url('https://fonts.cdnfonts.com/css/miama');
-
-.miami-font{
-  font-family: 'Miama', sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;                                            
-               
-}
+  .miama-font {
+    font-family: 'Miama', sans-serif;
+    font-size:9rem;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 
   body{
     margin: 0 auto;
@@ -38,11 +38,12 @@
     color: white;
     background-color: #E6533C;
     padding: 10px 20px;
+    margin-left: -35px;
 
 }
 
-
 .btn-primary{
+    width: 224px;
     font-size: 18px;
     font-weight: 600;
     padding: 16px 40px;
@@ -71,16 +72,19 @@
   }
 
 .nav-links{
+    width: 465px;
+    height: 46px;
     font-size: 18px;
-    justify-content: center;
     align-items: center;
     color: white;
-
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
 }
 
   .nav-item{
     list-style: none;
-    margin-right: 40px;
+    margin-right: 52px;
   }
 
   .nav-bar, .banner{
@@ -93,11 +97,11 @@
   /* banner related styles */
 
 .banner-title{
-    width: 520px;
+    /* width: 520px; */
     font-size:4.87rem ;
-    font-weight: ;
+    font-weight: 900;
+    line-height: 120%;
     color: white;
-
 }
 
 .banner-description{
@@ -186,76 +190,133 @@
 /* .hide{
   display:none;
 } */
+/* Change your habits style */
 
-/* responsive style for small device (576px) */
-@media screen and (max-width:576px) {
-  .nav-bar{
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-  .nav-links{
-    display: none;
-  }
-  .ham-burg{
-    display:block;
-    color: white;
-  }
-   .banner{
-    flex-direction: column;
-    margin-left: 20px;
-   }
-   .banner-title{
-    width: 285px;
-    height: 130px;
-    font-size: 36px;
-   }
-   .banner-description{
-    width:276px;
-    height: 96px;
-   }
-   .banner-btn{
-    display: flex;
-   }
-   #club{
-    display: none;
-   }
-   .banner-img{
-    margin-top: 47px;
-    margin-left: 20px;
-  }
-  .card-500{
-    width:146px;
-    height: 75px;
-    margin-top: -530px;
-    margin-left: 210px;
-  }
-  .card-500-title{
-    font-size: 2rem;
-  }
-  .card-500-description{
-    font-size: 0.625rem;
-    margin-top: px;
-  }
-  .card-350{
-    width: 156px;
-    height: 73px;
-    margin-left: 28px;
-    margin-top: 140px;
-  }
-  .ellipse{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    margin-left: 17px;
-    margin-top: 20px;
-  }
-  .card-350-title{
-    font-size: 1.133rem;
-  }
-  .card-350-description{
-    font-size: 0.75rem;
-    
-  }
+.change-your-habits{
+  margin-top: 80px;
+}
+
+.your-habits{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.your-habits-title{
+  font-size: 3rem;
+  font-weight: 900;
+  color: white; 
+}
+
+.your-habits-description{
+  width: 600px;
+  font-size: 0.875rem;
+  font-weight: 400;
+  text-align: center;
+  margin-top: -36px;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 24px;
+}
+
+.habits-images{
+  max-width: 1440px;
+  margin-top: 58px;
+  margin-left: 230px;
+  justify-content: center;
   
+}
 
+.section-one, .section-two, .section-three, .section-four{
+  width: 231px;
+  justify-content: center;
+  margin-right: 170px;
+}
+.section-one{
+  margin-left: 80px;
+}
+
+.section-one img{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+.section-two img{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+.section-three img{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+.section-four img{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+.movement, .time, .practice, .weight{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-left:-30px;
+}
+.weight{
+  margin-left: 0px;
+}
+.movement-title, .time-title, .practice-title, .weight-title{
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+.movement-description, .time-description, .practice-description, .weight-description{
+  font-size:0.875rem ;
+  margin-top: -10px;
+  text-align: center;
+}
+
+/* run extra mile styles */
+.run-extra{
+  max-width: 1440px;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  margin-left: 230px;
+}
+.extra-mile{
+  width: 500px;
+  padding: 40px 54px;
+  margin-top: -50px;
+}
+.extra-mile-title{
+  font-size: 3rem;
+  font-weight: 900;
+  color: white;
+}
+.extra-mile-description{
+  width: 435px;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  margin-bottom: 34px;
+}
+.run-extra img{
+  width: 566;
+  height: 312px;
+  border-radius: 18px; 
+}
+.extra-mile-img{
+  padding: 30px 32px;
 }
