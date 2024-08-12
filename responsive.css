@@ -133,5 +133,19 @@
         width: 287px;
         height: 170px;
     }
+    .fitness{
+      margin-left: 0px;
+    }
+    .fitness-title{
+      font-size: 2rem;
+    }
+    .fitness-description{
+      width: 316px;
+      margin-top:-24px ;
+    }
+    .fitness-container{
+      flex-direction: column;
+      gap: 24px;
+    }
   
   }
