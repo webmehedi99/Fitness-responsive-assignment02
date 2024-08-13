@@ -237,5 +237,23 @@
     .factor{
       width: 340px;
     }
-    
+    .our-team{
+      margin-top: 40px;
+    }
+    .team-title{
+      font-size: 2rem;
+      font-weight: 900;
+    }
+    .team-description{
+      width: 309px;
+      font-size: 0.875rem;
+      margin-top: -15px;
+    }
+    .team-img-container{
+      grid-template-columns: repeat(1, 1fr);
+      margin-top: 30px;
+    }
+
+
+
   }

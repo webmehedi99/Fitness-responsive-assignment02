@@ -491,3 +491,55 @@ input, select{
 .factor{
   width: 585px;
 }
+
+/* meet our team styles */
+.our-team{
+  max-width: 1440px;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.team-title{
+  font-size: 3rem;
+  font-weight: 900;
+  color: white;
+}
+.team-description{
+  width: 640px;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: center;
+  margin-top: -36px;
+}
+.team-img-container{
+  max-width: 1440px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-top: 50px;
+}
+.img-information > img{
+  width:327px;
+  height: 272px;
+  border-radius: 18px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.img-info{
+  margin-top: -90px;
+  margin-left: 20px;
+}
+.img-title{
+  font-size: 1.25rem;
+  font-weight: 900;
+  color: white;
+}
+.img-description{
+  margin-top: -18px;
+}
