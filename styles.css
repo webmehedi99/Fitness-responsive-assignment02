@@ -15,18 +15,15 @@
     font-weight: 400;
     font-style: normal;
   }
-  .hide{
-    display: none;
+  
+  header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
   }
+
 .nav-bar, .banner {
   max-width: 1440px;
   margin: 0 auto;
 }
-
-/* header{
-  width: auto;
-  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
-} */
 
   body{
     margin: 0 auto;
