@@ -253,6 +253,27 @@
       grid-template-columns: repeat(1, 1fr);
       margin-top: 30px;
     }
+    .fitness-footer-container{
+      height: 990px;
+    }
+    .footer-title{
+      margin-top: 44px;
+    }
+    .footer-description{
+      width: 317px;
+      margin-top: -50px;
+    }
+    .footer-container{
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      margin-left:20px;
+    }
+    .footer-container-two{
+      flex-direction: column;
+      gap: 0px;
+      margin-top: -10px;
+    }
 
 
 
