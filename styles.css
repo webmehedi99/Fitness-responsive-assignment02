@@ -432,13 +432,13 @@ td, th{
   border: 1px solid rgba(255, 255, 255, 0.1);
   
 }
+
 th{
   font-size: 1rem;
   font-weight: 500;
-  line-height: 120%;
   letter-spacing: 0%;
   text-align: left;
-  padding-left: 15px;
+  padding: 15px 17px;
 }
 td{
   font-size: 0.875rem;
