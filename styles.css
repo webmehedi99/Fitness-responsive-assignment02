@@ -15,6 +15,9 @@
     font-weight: 400;
     font-style: normal;
   }
+  .hide{
+    display: none;
+  }
 .nav-bar, .banner {
   max-width: 1440px;
   margin: 0 auto;

@@ -188,6 +188,7 @@
     }
 
     .bmi-calculator{
+      width: auto;
       justify-content: flex-start;
       margin-left: 30px;
     }
@@ -212,7 +213,9 @@
     .chart-title{
       font-size: 1rem;
     }
-
+    .your-bmi{
+      width:auto;
+    }
     .your-bmi-title{
       width: 354px;
       font-size: 1rem;
