@@ -15,7 +15,7 @@
     font-weight: 400;
     font-style: normal;
   }
-  
+
   header{
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
   }
@@ -96,13 +96,12 @@
     justify-items: center;
     align-items: center;
     list-style: none;
-    margin-right: 60px;
+    margin-right: 47px;
   }
 
   /* banner related styles */
 
 .banner-title{
-    /* width: 520px; */
     font-size:4.87rem ;
     font-weight: 900;
     line-height: 120%;
@@ -192,9 +191,6 @@
   margin-top: -18px;
 }
 
-/* .hide{
-  display:none;
-} */
 /* Change your habits style */
 
 .change-your-habits{
@@ -227,9 +223,7 @@
 }
 
 .habits-images{
-  /* max-width: 1440px; */
   margin-top: 58px;
-  /* margin-left: 230px; */
   justify-content: center;
   
 }
@@ -291,6 +285,7 @@
 }
 
 /* run extra mile styles */
+
 .run-extra{
   max-width: 1440px;
   margin: 0 auto;
@@ -328,6 +323,7 @@
 .extra-mile-img{
   padding: 30px 32px;
 }
+
 /* fitness and nutrition related styles */
 
 .fitness{
